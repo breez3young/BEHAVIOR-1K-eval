@@ -29,6 +29,12 @@ cd BEHAVIOR-1K
 
 # Run the setup script
 ./setup.sh --new-env --omnigibson --bddl --joylo --dataset
+
+# commented by Yang Zhang
+# if you want to do evaluation, plz install the complementary requirements
+conda activate behavior
+pip install -r additional_requirements.txt
+
 ```
 
 ### Windows
